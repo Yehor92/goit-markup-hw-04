@@ -302,10 +302,45 @@ img {
   width: 40px;
   height: 40px;
   background-color: var(--color-iris);
+  border-radius: 50%;
 }
-.link {
+.socials-link:hover,
+.socials-link:focus {
+  background-color: var(--color-ocean);
 }
-.socials-icon {
+
+/* customers */
+
+.customers {
+  padding: 120px 0;
+}
+
+.title-customers {
+  font-size: 36px;
+  margin-bottom: 72px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-navy-blue);
+}
+
+.list-customers {
+  display: flex;
+  gap: 24px;
+}
+.logo-customers {
+  width: 168px;
+  height: 88px;
+  border: 1px solid var(--color-light-slate);
+  border-radius: 4px;
+}
+
+.link-customers {
+}
+.customers-icon {
+  margin: 16px 32px;
+  fill: var(--color-light-slate);
 }
 
 /* Footer */
