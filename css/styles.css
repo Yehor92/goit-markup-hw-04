@@ -279,10 +279,33 @@ img {
   color: var(--color-navy-blue);
 }
 .post {
+  margin-bottom: 8px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
+}
+
+/* Socials icon */
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-iris);
+}
+.link {
+}
+.socials-icon {
 }
 
 /* Footer */
